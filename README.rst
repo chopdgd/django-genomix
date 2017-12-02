@@ -11,6 +11,14 @@ Django GenomiX
 .. image:: https://codecov.io/gh/genomics-geek/django-genomix/branch/master/graph/badge.svg
     :target: https://codecov.io/gh/genomics-geek/django-genomix
 
+.. image:: https://pyup.io/repos/github/chopdgd/django-genomix/shield.svg
+     :target: https://pyup.io/repos/github/chopdgd/django-genomix/
+     :alt: Updates
+
+.. image:: https://pyup.io/repos/github/chopdgd/django-genomix/python-3-shield.svg
+      :target: https://pyup.io/repos/github/chopdgd/django-genomix/
+      :alt: Python 3
+
 Core library for Nexus django projects
 
 Documentation
