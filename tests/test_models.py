@@ -1,25 +1,21 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-"""
-test_django-genomix
-------------
-
-Tests for `django-genomix` models module.
-"""
-
-from django.test import TestCase
-
-from genomix import models
+from genomix import models, test
 
 
-class TestGenomix(TestCase):
+class TestTimeStampedLabelModel(test.ModelMixinTestCase):
+    mixin = models.TimeStampedLabelModel
 
     def setUp(self):
-        pass
+        super(TestTimeStampedLabelModel, self).setUp()
+        self.instance = self.model.objects.create(
+            label='Label Test',
+            description='description',
+            active=False,
+        )
 
-    def test_something(self):
-        pass
-
-    def tearDown(self):
-        pass
+    def test_fields(self):
+        assert self.instance.label == 'Label Test'
+        assert self.instance.description == 'description'
+        assert self.instance.slug == 'label-test'
+        assert self.instance.active is False
+        assert str(self.instance) == 'Label Test'

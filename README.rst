@@ -43,18 +43,6 @@ Add it to your `INSTALLED_APPS`:
         ...
     )
 
-Add Django GenomiX's URL patterns:
-
-.. code-block:: python
-
-    from genomix import urls as genomix_urls
-
-
-    urlpatterns = [
-        ...
-        url(r'^', include(genomix_urls)),
-        ...
-    ]
 
 Features
 --------

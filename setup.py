@@ -56,7 +56,10 @@ setup(
         'genomix',
     ],
     include_package_data=True,
-    install_requires=[],
+    install_requires=[
+        'django-model-utils==3.0.0',
+        'djangorestframework==3.7.3',
+    ],
     license="MIT",
     zip_safe=False,
     keywords='django-genomix',
