@@ -1,2 +1,5 @@
 
 # Additional requirements go here
+
+django-model-utils==3.0.0
+djangorestframework==3.7.3

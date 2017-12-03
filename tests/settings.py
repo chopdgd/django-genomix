@@ -12,11 +12,11 @@ SECRET_KEY = "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": ":memory:",
+        "NAME": "testing.db",
     }
 }
 
-ROOT_URLCONF = "tests.urls"
+# ROOT_URLCONF = "tests.urls"
 
 INSTALLED_APPS = [
     "django.contrib.auth",
