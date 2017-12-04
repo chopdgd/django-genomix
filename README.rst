@@ -5,11 +5,11 @@ Django GenomiX
 .. image:: https://badge.fury.io/py/django-genomix.svg
     :target: https://badge.fury.io/py/django-genomix
 
-.. image:: https://travis-ci.org/genomics-geek/django-genomix.svg?branch=master
-    :target: https://travis-ci.org/genomics-geek/django-genomix
+.. image:: https://travis-ci.org/chopdgd/django-genomix.svg?branch=master
+    :target: https://travis-ci.org/chopdgd/django-genomix
 
-.. image:: https://codecov.io/gh/genomics-geek/django-genomix/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/genomics-geek/django-genomix
+.. image:: https://codecov.io/gh/chopdgd/django-genomix/branch/develop/graph/badge.svg
+    :target: https://codecov.io/gh/chopdgd/django-genomix
 
 .. image:: https://pyup.io/repos/github/chopdgd/django-genomix/shield.svg
      :target: https://pyup.io/repos/github/chopdgd/django-genomix/
