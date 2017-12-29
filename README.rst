@@ -5,7 +5,7 @@ Django GenomiX
 .. image:: https://badge.fury.io/py/django-genomix.svg
     :target: https://badge.fury.io/py/django-genomix
 
-.. image:: https://travis-ci.org/chopdgd/django-genomix.svg?branch=master
+.. image:: https://travis-ci.org/chopdgd/django-genomix.svg?branch=develop
     :target: https://travis-ci.org/chopdgd/django-genomix
 
 .. image:: https://codecov.io/gh/chopdgd/django-genomix/branch/develop/graph/badge.svg
