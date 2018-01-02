@@ -10,3 +10,25 @@ from genomix import utils
 ])
 def test_calculate_md5(chromosome, position, reference, alternate, expected):
     assert utils.calculate_variant_md5(chromosome, position, reference, alternate) == expected
+
+
+@pytest.mark.parametrize("url,expected", [
+    (
+        'http://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz',
+        862,
+    ),
+    (None, 0),
+])
+def test_retrieve_compressed_data(url, expected):
+    assert len(utils.retrieve_compressed_data(url)) == expected
+
+
+@pytest.mark.parametrize("url,expected", [
+    (
+        'http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes',
+        93,
+    ),
+    (None, 0),
+])
+def test_retrieve_data(url, expected):
+    assert len(utils.retrieve_data(url)) == expected
