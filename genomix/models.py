@@ -10,7 +10,7 @@ class TimeStampedLabelModel(TimeStampedModel):
     label = models.CharField(max_length=50, unique=True)
     description = models.CharField(max_length=255, blank=True)
     slug = models.SlugField(max_length=50, unique=True)
-    active = models.NullBooleanField(default=True)
+    active = models.BooleanField(default=True)
 
     class Meta:
         abstract = True

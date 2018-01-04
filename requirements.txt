@@ -1,5 +1,6 @@
 
 # Additional requirements go here
 
+django-filter==1.1.0
 django-model-utils==3.0.0
-djangorestframework==3.7.3
+djangorestframework==3.7.7
