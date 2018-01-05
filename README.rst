@@ -39,7 +39,7 @@ Add it to your `INSTALLED_APPS`:
 
     INSTALLED_APPS = (
         ...
-        'genomix.apps.GenomixConfig',
+        'genomix',
         ...
     )
 
@@ -47,7 +47,61 @@ Add it to your `INSTALLED_APPS`:
 Features
 --------
 
-* TODO
+1. DisplayChoiceField - display representation values for choice fields in REST APIs.::
+
+.. code-block:: python
+
+    from genomix.fields import DisplayChoiceField
+    from rest_framework import serializers
+
+    from . import choices
+
+
+    class ExampleSerializer(serializers.ModelSerializer):
+
+        status = DisplayChoiceField(choices=choices.STATUS_OPTIONS)
+
+2. UserRelatedField - display username for a REST API with a user relation.::
+
+.. code-block:: python
+    from django.contrib.auth import get_user_model
+
+    from genomix.fields import UserRelatedField
+    from rest_framework import serializers
+
+
+    class ExampleSerializer(serializers.ModelSerializer):
+
+        user = UserRelatedField(queryset=get_user_model().objects.all())
+
+
+3. ContentRelatedField - display ContentType model for a REST API using a generic relation.::
+
+.. code-block:: python
+    from django.contrib.auth import get_user_model
+    from django.contrib.contenttypes.models import ContentType
+
+    from genomix.fields import ContentRelatedField
+    from rest_framework import serializers
+
+
+    class ExampleSerializer(serializers.ModelSerializer):
+
+        content_type = ContentRelatedField(queryset=ContentType.objects.all())
+
+4. DisplayChoiceFilter - Filter by representation values in a REST API.::
+
+.. code-block:: python
+
+    import django_filters
+    from genomix.filters import DisplayChoiceFilter
+
+    from . import choices
+
+
+    class ExampleFilter(django_filters.rest_framework.FilterSet):
+
+        source = DisplayChoiceFilter(choices=choices.SOURCES)
 
 Running Tests
 -------------
