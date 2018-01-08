@@ -30,3 +30,8 @@ History
 
 * Improved docs
 * Beta release
+
+0.4.1 (2018-01-09)
+++++++++++++++++++
+
+* DisplayChoiceFilter fixed coerce method to handle Choices with different display values.
