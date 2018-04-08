@@ -17,7 +17,7 @@ History
 0.2.0 (2017-12-31)
 ++++++++++++++++++
 
-`Full Changelog <https://github.com/chopdgd/django-genomix-users/compare/v0.1.0...v0.2.0)>`_
+`Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.1.0...v0.2.0>`_
 
 * Added utils function to retrieve data from a URL
 * Added utils function to retrieve compressed data from a URL
@@ -25,14 +25,14 @@ History
 0.3.0 (2018-01-04)
 ++++++++++++++++++
 
-`Full Changelog <https://github.com/chopdgd/django-genomix-users/compare/v0.1.0...v0.2.0)>`_
+`Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.2.0...v0.3.0>`_
 
 * DisplayChoiceFilter for use in django_filters. Filter by diplay fields for a choice field in a REST API
 
 0.4.0 (2018-01-05)
 ++++++++++++++++++
 
-`Full Changelog <https://github.com/chopdgd/django-genomix-users/compare/v0.1.0...v0.2.0)>`_
+`Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.3.0...v0.4.0>`_
 
 * Improved docs
 * Beta release
@@ -40,13 +40,21 @@ History
 0.4.1 (2018-01-09)
 ++++++++++++++++++
 
-`Full Changelog <https://github.com/chopdgd/django-genomix-users/compare/v0.1.0...v0.2.0)>`_
+`Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.4.0...v0.4.1>`_
 
 * DisplayChoiceFilter fixed coerce method to handle Choices with different display values.
 
 0.5.0 (2018-02-09)
 ++++++++++++++++++
 
-`Full Changelog <https://github.com/chopdgd/django-genomix-users/compare/v0.1.0...v0.2.0)>`_
+`Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.4.1...v0.5.0>`_
 
 * Updated requirements to the latest.
+
+0.6.0 (2018-04-07)
+++++++++++++++++++
+
+`Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.5.0...v0.6.0>`_
+
+* Added support for Django 2.0 and Python3.6
+* Dropped support for Django <1.11 and Python 2.7, 3.3, 3.4
