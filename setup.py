@@ -59,7 +59,7 @@ setup(
     install_requires=[
         'django-filter==1.1.0',
         'django-model-utils==3.1.1',
-        'djangorestframework==3.7.7',
+        'djangorestframework==3.8.2',
     ],
     license="MIT",
     zip_safe=False,

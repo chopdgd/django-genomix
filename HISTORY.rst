@@ -58,3 +58,10 @@ History
 
 * Added support for Django 2.0 and Python3.6
 * Dropped support for Django <1.11 and Python 2.7, 3.3, 3.4
+
+0.6.1 (2018-04-18)
+++++++++++++++++++
+
+`Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.0...v0.6.1>`_
+
+* Upgraded 3rd party libs
