@@ -21,10 +21,17 @@ def get_version(*file_paths):
     raise RuntimeError('Unable to find version string.')
 
 
+def parse_requirements():
+    """ load requirements from a pip requirements file """
+    lineiter = (line.strip() for line in open('requirements.txt'))
+    return [line for line in lineiter if line and not line.startswith("#")]
+
+
 version = get_version("genomix", "__init__.py")
 
 
 if sys.argv[-1] == 'publish':
+
     try:
         import wheel
         print("Wheel version: ", wheel.__version__)
@@ -56,11 +63,7 @@ setup(
         'genomix',
     ],
     include_package_data=True,
-    install_requires=[
-        'django-filter==1.1.0',
-        'django-model-utils==3.1.1',
-        'djangorestframework==3.8.2',
-    ],
+    install_requires=parse_requirements(),
     license="MIT",
     zip_safe=False,
     keywords='django-genomix',
