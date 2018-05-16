@@ -65,3 +65,10 @@ History
 `Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.0...v0.6.1>`_
 
 * Upgraded 3rd party libs
+
+0.6.2 (2018-05-16)
+++++++++++++++++++
+
+`Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.1...v0.6.2>`_
+
+* Updated setup.py to read install_requires from requirements.txt
