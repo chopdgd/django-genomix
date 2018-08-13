@@ -72,3 +72,10 @@ History
 `Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.1...v0.6.2>`_
 
 * Updated setup.py to read install_requires from requirements.txt
+
+0.6.3 (2018-08-13)
+++++++++++++++++++
+
+`Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.2...v0.6.3>`_
+
+* Updated 3rd party requirements.  Some requirements had changed so it was causing failures
