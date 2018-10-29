@@ -79,3 +79,10 @@ History
 `Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.2...v0.6.3>`_
 
 * Updated 3rd party requirements.  Some requirements had changed so it was causing failures
+
+0.6.4 (2018-10-29)
+++++++++++++++++++
+
+`Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.3...v0.6.4>`_
+
+* Updated deps and adjusted for new flake8 reqs
