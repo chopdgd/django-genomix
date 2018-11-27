@@ -10,31 +10,20 @@ import pytest
 from genomix import fields
 
 
-@pytest.fixture()
 def DisplayChoiceField():
-    choices = Choices(
-        (0, 'choice', _('Choice')),
-    )
-    return fields.DisplayChoiceField(choices=choices)
+    return fields.DisplayChoiceField(choices=Choices((0, 'choice', _('Choice'))))
 
 
-@pytest.fixture()
 def UserRelatedField():
     return fields.UserRelatedField(read_only=True)
 
 
-@pytest.fixture()
 def ContentRelatedField():
     return fields.ContentRelatedField(read_only=True)
 
 
-@pytest.fixture()
 def User():
-    return mommy.make(
-        'auth.User',
-        id=1,
-        username='username',
-    )
+    return mommy.make('auth.User', id=1, username='username')
 
 
 class FieldTestCase(TestCase):
