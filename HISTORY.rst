@@ -86,3 +86,10 @@ History
 `Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.3...v0.6.4>`_
 
 * Updated deps and adjusted for new flake8 reqs
+
+0.6.5 (2019-02-07)
+++++++++++++++++++
+
+`Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.4...v0.6.5>`_
+
+* Updated deps
