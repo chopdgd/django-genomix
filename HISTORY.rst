@@ -93,3 +93,11 @@ History
 `Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.4...v0.6.5>`_
 
 * Updated deps
+
+0.6.6 (2019-04-10)
+++++++++++++++++++
+
+`Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.5...v0.6.6>`_
+
+* Updated deps
+* Updated travis to use xenial distribution.  Django 2.1 dropped support for SQLite < 3.8.3
