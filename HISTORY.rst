@@ -101,3 +101,10 @@ History
 
 * Updated deps
 * Updated travis to use xenial distribution.  Django 2.1 dropped support for SQLite < 3.8.3
+
+0.6.7 (2019-05-30)
+++++++++++++++++++
+
+`Full Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.6...v0.6.7>`_
+
+* Updated deps
