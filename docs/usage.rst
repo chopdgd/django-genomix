@@ -2,7 +2,7 @@
 Usage
 =====
 
-To use Django GenomiX in a project, add it to your `INSTALLED_APPS`:
+To use django-genomix in a project, add it to your `INSTALLED_APPS`:
 
 .. code-block:: python
 
@@ -12,7 +12,7 @@ To use Django GenomiX in a project, add it to your `INSTALLED_APPS`:
         ...
     )
 
-Add Django GenomiX's URL patterns:
+Add django-genomix's URL patterns:
 
 .. code-block:: python
 

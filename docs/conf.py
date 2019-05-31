@@ -20,7 +20,7 @@ import sphinx_rtd_theme
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-# sys.path.insert(0, os.path.abspath('.'))
+#sys.path.insert(0, os.path.abspath('.'))
 
 cwd = os.getcwd()
 parent = os.path.dirname(cwd)
@@ -28,7 +28,7 @@ sys.path.append(parent)
 os.environ['DJANGO_SETTINGS_MODULE'] = 'tests.settings'
 django.setup()
 
-import genomix  # noqa
+import genomix
 
 # -- General configuration -----------------------------------------------------
 
@@ -52,8 +52,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Django GenomiX'
-copyright = u'2017, Michael A. Gonzalez'
+project = u'django-genomix'
+copyright = u'2019, Michael A. Gonzalez'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -198,7 +198,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'django-genomix.tex', u'Django GenomiX Documentation',
+  ('index', 'django-genomix.tex', u'django-genomix Documentation',
    u'Michael A. Gonzalez', 'manual'),
 ]
 
@@ -228,7 +228,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'django-genomix', u'Django GenomiX Documentation',
+    ('index', 'django-genomix', u'django-genomix Documentation',
      [u'Michael A. Gonzalez'], 1)
 ]
 
@@ -242,7 +242,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'django-genomix', u'Django GenomiX Documentation',
+  ('index', 'django-genomix', u'django-genomix Documentation',
    u'Michael A. Gonzalez', 'django-genomix', 'One line description of project.',
    'Miscellaneous'),
 ]

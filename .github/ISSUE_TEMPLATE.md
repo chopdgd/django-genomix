@@ -1,4 +1,4 @@
-* Django GenomiX version:
+* django-genomix version:
 * Django version:
 * Python version:
 * Operating System:

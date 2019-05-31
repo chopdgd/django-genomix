@@ -5,8 +5,10 @@ dist: xenial
 language: python
 
 python:
-  - "3.6"
+  - "2.7"
+  - "3.4"
   - "3.5"
+  - "3.6"
 
 matrix:
   fast_finish: true
