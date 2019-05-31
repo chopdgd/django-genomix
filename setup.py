@@ -31,7 +31,6 @@ version = get_version("genomix", "__init__.py")
 
 
 if sys.argv[-1] == 'publish':
-
     try:
         import wheel
         print("Wheel version: ", wheel.__version__)
@@ -57,7 +56,7 @@ setup(
     description="""Core library for Nexus django projects""",
     long_description=readme + '\n\n' + history,
     author='Michael A. Gonzalez',
-    author_email='genomics.geek.04.22@gmail.com',
+    author_email='GonzalezMA@email.chop.edu',
     url='https://github.com/genomics-geek/django-genomix',
     packages=[
         'genomix',
@@ -69,10 +68,9 @@ setup(
     keywords='django-genomix',
     classifiers=[
         'Development Status :: 4 - Beta',
-        'Framework :: Django',
-        'Framework :: Django :: 1.11',
         'Framework :: Django :: 2.0',
         'Framework :: Django :: 2.1',
+        'Framework :: Django :: 2.2',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',

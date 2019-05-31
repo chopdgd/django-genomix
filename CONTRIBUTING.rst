@@ -36,8 +36,8 @@ is open to whoever wants to implement it.
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
-Django GenomiX could always use more documentation, whether as part of the 
-official Django GenomiX docs, in docstrings, or even on the web in blog posts,
+django-genomix could always use more documentation, whether as part of the 
+official django-genomix docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
 Submit Feedback

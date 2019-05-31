@@ -1,7 +1,6 @@
 from django.utils.translation import ugettext_lazy as _
 
 from model_utils import Choices
-import pytest
 
 from genomix import filters
 
