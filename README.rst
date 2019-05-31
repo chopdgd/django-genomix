@@ -47,7 +47,7 @@ Add it to your `INSTALLED_APPS`:
 Features
 --------
 
-1. DisplayChoiceField - display representation values for choice fields in REST APIs.::
+1. DisplayChoiceField - display representation values for choice fields in REST APIs.:
 
 .. code-block:: python
 
@@ -61,9 +61,10 @@ Features
 
         status = DisplayChoiceField(choices=choices.STATUS_OPTIONS)
 
-2. UserRelatedField - display username for a REST API with a user relation.::
+2. UserRelatedField - display username for a REST API with a user relation.:
 
 .. code-block:: python
+
     from django.contrib.auth import get_user_model
 
     from genomix.fields import UserRelatedField
@@ -75,9 +76,10 @@ Features
         user = UserRelatedField(queryset=get_user_model().objects.all())
 
 
-3. ContentRelatedField - display ContentType model for a REST API using a generic relation.::
+3. ContentRelatedField - display ContentType model for a REST API using a generic relation.:
 
 .. code-block:: python
+
     from django.contrib.auth import get_user_model
     from django.contrib.contenttypes.models import ContentType
 
@@ -89,7 +91,7 @@ Features
 
         content_type = ContentRelatedField(queryset=ContentType.objects.all())
 
-4. DisplayChoiceFilter - Filter by representation values in a REST API.::
+4. DisplayChoiceFilter - Filter by representation values in a REST API.:
 
 .. code-block:: python
 
