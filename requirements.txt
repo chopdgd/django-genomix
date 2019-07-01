@@ -2,5 +2,5 @@
 # Additional requirements go here
 
 django-filter==2.1.0
-django-model-utils==3.1.2
+django-model-utils==3.2.0
 djangorestframework==3.9.4
