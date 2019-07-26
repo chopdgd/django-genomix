@@ -108,3 +108,10 @@ History
 `0.6.7 Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.6...v0.6.7>`_
 
 * Updated deps
+
+0.6.8 (2019-07-26)
+++++++++++++++++++
+
+`0.6.8 Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.7...v0.6.8>`_
+
+* Updated deps
