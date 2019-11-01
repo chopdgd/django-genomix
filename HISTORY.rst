@@ -124,7 +124,7 @@ History
 * Updated deps
 
 0.6.10 (2019-09-09)
-++++++++++++++++++
++++++++++++++++++++
 
 `0.6.10 Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.9...v0.6.10>`_
 
