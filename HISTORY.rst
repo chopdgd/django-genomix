@@ -129,3 +129,11 @@ History
 `0.6.10 Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.9...v0.6.10>`_
 
 * Updated deps
+
+1.0.0 (2019-11-01)
+++++++++++++++++++
+
+`1.0.0 Changelog <https://github.com/chopdgd/django-genomix/compare/v0.6.10...v1.0.0>`_
+
+* Made gene symbol unique
+* First release used in production in DGD
