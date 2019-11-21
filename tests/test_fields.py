@@ -72,7 +72,8 @@ class TestContentRelatedField(FieldTestCase):
 
     def setUp(self):
         self.field = ContentRelatedField()
-        self.internal_value = ContentType.objects.create(id=99, model='model', app_label='app_label')
+        self.internal_value = ContentType.objects.create(
+            id=99, model='model', app_label='app_label')
         self.bad_internal_value = MagicMock(spec=ContentType(), id=100)
         self.display_value = 'model'
         self.bad_display_value = 'bad-model'
