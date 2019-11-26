@@ -137,3 +137,10 @@ History
 
 * Made gene symbol unique
 * First release used in production in DGD
+
+1.1.0 (2019-11-26)
+++++++++++++++++++
+
+`1.1.0 Changelog <https://github.com/chopdgd/django-genomix/compare/v1.0.0...v1.1.0>`_
+
+* Added disabled update method queryset base class
