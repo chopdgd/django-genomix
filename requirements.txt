@@ -3,4 +3,4 @@
 
 django-filter==22.1
 django-model-utils==4.2.0
-djangorestframework==3.10.3
+djangorestframework==3.13.1
